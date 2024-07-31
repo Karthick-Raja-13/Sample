@@ -15,6 +15,7 @@ public void sikuli() {
 	Pattern p = new Pattern("C:\\Users\\Admin\\eclipse-workspace\\selenium\\src\\test\\resources\\Screenshot 2024-07-27 141123.png");
 	Pattern p2 = new Pattern("C:\\Users\\Admin\\eclipse-workspace\\selenium\\src\\test\\resources\\Screenshot 2024-07-27 141517.png");
 	Screen screen = new Screen();
+	System.out.println("New Line");
 	try {
 		screen.wait(p,10);
 		screen.click(p);
